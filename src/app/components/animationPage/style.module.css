@@ -1,0 +1,25 @@
+
+/* - doest work for naming beacuse these module styles works as objects */
+.animationContainer{
+    margin: 0;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.divTop{
+    height: 100vh;
+    width: 100%;
+    background-color: tomato;
+    z-index: 2;
+    position: absolute;
+}
+
+.divBottom{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(83, 83, 194);
+    position: absolute;
+    top: 80vh;
+    z-index: 1;
+}
